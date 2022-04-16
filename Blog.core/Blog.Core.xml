@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.core</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.core.Controllers.ValuesController">
+            <summary>
+            博客管理
+            </summary>
+        </member>
+        <member name="M:Blog.core.Controllers.ValuesController.Get">
+            <summary>
+            获取博客列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.core.Controllers.ValuesController.Get(System.Int32)">
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.core.Controllers.ValuesController.Post(Blog.Core.Model.Love)">
+            <summary>
+            post
+            </summary>
+            <param name="love">model实体类参数</param>
+        </member>
+        <member name="M:Blog.core.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>
