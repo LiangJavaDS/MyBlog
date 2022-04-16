@@ -150,7 +150,7 @@ namespace Blog.core
             #endregion
             //如果你想使用官方认证，必须在上边ConfigureService 中，配置JWT的认证服务 (.AddAuthentication 和 .AddJwtBearer 二者缺一不可)
             app.UseAuthentication();
-            // 使程序知道用mvc处理http请求
+            // 使程序知道用mvc处理http请求。
             app.UseMvc();
         }
     }
